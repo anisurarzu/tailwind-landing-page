@@ -5,8 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Going Courier</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tailwind css -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>This Is Our Home Page</h1>
+    <!-- Header Section -->
+    <section>
+      <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-4">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <img
+            class="w-24 h-12 pl-4"
+            src="https://i.ibb.co/RbJ6FzN/courier-logo.png"
+            alt=""
+          />
+        </div>
+        <div class="block lg:hidden">
+          <button
+            class="
+              flex
+              items-center
+              px-3
+              py-2
+              border
+              rounded
+              text-teal-200
+              border-teal-400
+              hover:text-white hover:border-white
+            "
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow navigation">
+            <a
+              href="#responsive-header"
+              class="
+                block
+                mt-4
+                lg:inline-block lg:mt-0
+                text-white
+                hover:text-white
+                text-xl
+                pr-4
+              "
+            >
+              Home
+            </a>
+            <a
+              href="#responsive-header"
+              class="
+                block
+                mt-4
+                lg:inline-block lg:mt-0
+                text-white
+                hover:text-white
+                text-xl
+              "
+            >
+              Admin
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="
+                inline-block
+                text-sm
+                px-4
+                py-2
+                leading-none
+                border
+                rounded
+                text-white
+                border-white
+                hover:border-transparent hover:text-teal-500 hover:bg-white
+                mt-4
+                lg:mt-0
+              "
+              ><i class="fas fa-sign-in-alt pr-2"></i>Login</a
+            >
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Header Section End -->
   </body>
 </html>
